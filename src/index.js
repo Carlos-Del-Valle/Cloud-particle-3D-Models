@@ -13,7 +13,7 @@ document.body.appendChild( renderer.domElement );
 
 // Scene & Camera
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 
+const camera = new THREE.PerspectiveCamera(   
   50, 
   window.innerWidth / window.innerHeight,
   0.1,
